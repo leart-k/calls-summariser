@@ -1,9 +1,9 @@
-import boto3
+import time
 import json
 import os
 import sys
 import uuid
-import time
+import boto3
 
 # Retrieving the config and mode
 config = json.load(open(sys.argv[1]))
@@ -25,7 +25,7 @@ def audio_to_transcript():
 
     # Uploading of the file, uncomment when uploading
     file_name = "call_no_1"
-    # s3_client.upload_file("call_no_1", S3_BUCKET, "call_no_1")
+    s3_client.upload_file("call_no_1", S3_BUCKET, "call_no_1")
 
     # AWS Transcribe Client
     transcribe_client = boto3.client(
