@@ -20,7 +20,8 @@
 
 *The following solution focuses on utilising AWS Transcribe and AWS Bedrock to transcribe calls/audio while providing an effective summary based on business needs.*
 
-![Image not available](.assets/audio_to_summary.png "Logical Diagram")
+![Audio-to-Summary Logical Diagram](assets/audio_to_summary.png "Diagram depicting the logical flow of the solution")
+
 
 <!-- GETTING STARTED -->
 ## Getting Started
